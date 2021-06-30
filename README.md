@@ -33,9 +33,9 @@ Bonus Points
 
 The code allows for a particular data key to be retrieved individually
 Hints
-·         Aws Documentation (https://docs.aws.amazon.com/)
-·         Azure Documentation (https://docs.microsoft.com/en-us/azure/?product=featured)
-·         Google Documentation (https://cloud.google.com/docs)
+* Aws Documentation (https://docs.aws.amazon.com/)
+* Azure Documentation (https://docs.microsoft.com/en-us/azure/?product=featured)
+* Google Documentation (https://cloud.google.com/docs)
 
 ## Description/Answer
 
@@ -54,9 +54,7 @@ value = a
 
 Hints:
 We would like to see some tests. A quick read to help you along the way
-
 We would expect it in any other language apart from elixir.
-
 A quick read to help you along the way
 
 ## Description/Answer
