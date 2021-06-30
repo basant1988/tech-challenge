@@ -29,7 +29,7 @@ terraform apply
 ## Challenge #2
 
 We need to write code that will query the meta data of an instance within AWS and provide a json formatted output. The choice of language and implementation is up to you.
-Bonus Points 
+Bonus Points
 
 The code allows for a particular data key to be retrieved individually
 Hints
@@ -39,6 +39,7 @@ Hints
 
 ## Description/Answer
 
+Answer for this challenge can be found in `challenge2and3` directory inside file name `get_instance_metadata.py`
 
 
 ## Challenge #3
@@ -58,3 +59,5 @@ We would expect it in any other language apart from elixir.
 A quick read to help you along the way
 
 ## Description/Answer
+
+Answer for this challenge can be found in `challenge2and3` directory inside file name `value_by_key.py`
