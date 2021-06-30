@@ -1,7 +1,9 @@
 import json
 
-sample_data = '{"id":"0001","type":"donut","name":"Cake","ppu":0.55,"batters":{"batter":{"id":"1001","type":"Regular"}},"topping":{"id":"5001","type":"None"}}'
-
+# sample_data = '{"id":"0001","type":"donut","name":"Cake","ppu":0.55,"batters":{"batter":{"id":"1001","type":"Regular"}},"topping":{"id":"5001","type":"None"}}'
+sample_data = '{"a":{"b":{"c":"d"}}}'
+print("Object: ", sample_data)
+print("---------------------------")
 json_str = json.loads(sample_data)
 
 # Get value for the first occurance of the key
@@ -28,7 +30,10 @@ def get_value_by_key_pattern(dataobject, key):
             return
 
 if __name__ == "__main__":
-    print(get_value_by_key_pattern(json_str, 'batters/batter'))
-    print("Value of {0} is {1}".format('id', get_first_value_by_key(json_str, 'id')))
+    # key = 'batters/batter'
+    key = 'a/b/c'
+    print("key: ", key)
+    print("---------------------------")
+    print("Value: ", get_value_by_key_pattern(json_str, key))
 
 
