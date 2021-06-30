@@ -41,6 +41,13 @@ Hints
 
 Answer for this challenge can be found in `challenge2and3` directory inside file name `get_instance_metadata.py`
 
+![metadata](https://user-images.githubusercontent.com/4091250/124013689-4062bd00-da00-11eb-849d-5687f855a0b3.PNG)
+
+To retrieve value of a specific key , there are multiple ways to do it 
+1. we can do it by using https://pypi.org/project/ec2-metadata/
+2. if we want to do it in generic way then we can write a mapping of all the instance metadat key and retrive them 
+
+
 
 ## Challenge #3
 
