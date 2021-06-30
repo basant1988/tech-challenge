@@ -61,3 +61,10 @@ A quick read to help you along the way
 ## Description/Answer
 
 Answer for this challenge can be found in `challenge2and3` directory inside file name `value_by_key.py`
+
+Some scenario validation
+
+![key1](https://user-images.githubusercontent.com/4091250/124012104-5ff8e600-d9fe-11eb-9991-063bfe5768d7.PNG)
+
+![key2](https://user-images.githubusercontent.com/4091250/124012154-730bb600-d9fe-11eb-8cf3-496cc795fb3e.PNG)
+
