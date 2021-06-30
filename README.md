@@ -26,6 +26,20 @@ terraform init
 terraform plan
 terraform apply
 
+### Screenshots 
+
+**Frontend Web app**
+![frontend](https://user-images.githubusercontent.com/4091250/124016649-840af600-da03-11eb-967f-2bf549e5c3cc.PNG)
+
+**Access Internal lb deployed for backend , accessing it from web application server **
+
+![backend](https://user-images.githubusercontent.com/4091250/124016805-a6047880-da03-11eb-96a7-e80dc34e683d.PNG)
+
+**Acessing db server from backend server**
+
+![dbaccess](https://user-images.githubusercontent.com/4091250/124017225-1a3f1c00-da04-11eb-9182-9457d5253c53.PNG)
+
+
 ## Challenge #2
 
 We need to write code that will query the meta data of an instance within AWS and provide a json formatted output. The choice of language and implementation is up to you.
