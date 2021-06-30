@@ -29,7 +29,8 @@ terraform apply
 ## Challenge #2
 
 We need to write code that will query the meta data of an instance within AWS and provide a json formatted output. The choice of language and implementation is up to you.
-Bonus Points
+Bonus Points 
+
 The code allows for a particular data key to be retrieved individually
 Hints
 ·         Aws Documentation (https://docs.aws.amazon.com/)
@@ -49,9 +50,12 @@ key = a/b/c
 object = {“x”:{“y”:{“z”:”a”}}}
 key = x/y/z
 value = a
+
 Hints:
 We would like to see some tests. A quick read to help you along the way
+
 We would expect it in any other language apart from elixir.
+
 A quick read to help you along the way
 
 ## Description/Answer
