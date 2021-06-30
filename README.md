@@ -19,8 +19,7 @@ To Deploy the infrastructure
 1. AWS CLI should be installed and configured
 2. Terraform should be installed
 
-Steps
-
+**Steps**
 git clone https://github.com/basant1988/tech-challenge.git
 cd tech-challenge
 terraform init
