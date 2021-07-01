@@ -55,14 +55,16 @@ Hints
 
 Answer for this challenge can be found in `challenge2and3` directory inside file name `get_instance_metadata.py`
 
-Dependency : `pip3 install requests`
+* Dependency : `pip3 install requests`
+
 **To get Complete instance metadata json dump **
 
-`python3 get_instance_metadata.py`
+* `python3 get_instance_metadata.py`
 
 ![metadata](https://user-images.githubusercontent.com/4091250/124013689-4062bd00-da00-11eb-849d-5687f855a0b3.PNG)
 
 **To get specific metadata **
+
 * `python3 get_instance_metadata.py key-to-retrieve`
 
 E.g. 
