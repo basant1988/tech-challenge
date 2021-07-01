@@ -79,7 +79,7 @@ module "db" {
   monitoring_interval = "30"
   monitoring_role_name = "POCRDSMonitoringRole"
   create_monitoring_role = true
-  backup_retention_period = backup-retention-period
+  backup_retention_period = var.backup-retention-period
   multi_az = var.multi-az
   tags = var.tags
   subnet_ids = module.vpc.db_subnets
